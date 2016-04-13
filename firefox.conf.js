@@ -19,7 +19,7 @@ exports.config = {
     seleniumPort: 4444,
     seleniumArgs: ['-browserTimeout=60'],  //End Option 2
 
-    directConnect: true,
+   // directConnect: true,
 
     // specs: ['test/e2e/protractor_and_jenkins-test setup/**/*_spec.js'],
     specs: ['test/e2e/tests/**/*_spec.js'],
