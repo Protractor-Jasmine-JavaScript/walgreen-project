@@ -19,7 +19,7 @@ describe('Gap Landing Page', function() {
     it('Should be able to see "your account" text', function() {
         expect(browser.isElementPresent(landingPage.yourAcount_text)).toBeTruthy();
     });
-    
+
 
   });
 });
